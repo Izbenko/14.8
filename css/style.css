@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url("https://img.freepik.com/free-photo/spa-composition-with-body-care-items-on-a-light-wall_169016-5923.jpg?t=st=1657757388~exp=1657757988~hmac=889698a4fdb6c4e726ce4ac1c885b567304ea5a8a7336ef40334f4e8149c1846&w=996") bottom no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    color: red;
+    font-size: 4rem;
+    font-family: "Times New Roman", Times, Serif;
+}
+
+
+footer {
+    background: url("https://html5book.ru/wp-content/uploads/2015/05/background6.png") repeat;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(108, 117, 125);
+    font-family: "Times New Roman", Times, Serif;
+}
+
+.news {
+    background: url("https://html5book.ru/wp-content/uploads/2015/05/background6.png") repeat;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+
+article a {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #0085a1;
+}
+
+article h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(134, 142, 150);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
